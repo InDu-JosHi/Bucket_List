@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo&family=Nunito+Sans:wght@200;400&family=Recursive&family=Titillium+Web&family=Work+Sans&display=swap');
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0;
+}
+body{
+    font-family: 'Exo', sans-serif;
+    background-color: green;
+}
+.container{
+    height: 100vh;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+.bucket{
+    background-color: rgb(240, 235, 240);
+    width: 600px;
+    min-height: 100vh;
+    margin: auto;
+    box-shadow: 2px 2px 30px 0 rgba(0, 0, 0, .5);
+}
+.input-pencil{
+    text-align: center;
+    margin-top: -1rem;
+}
+.bucket h1{
+    margin-top: 1rem;
+    font-size: 2.5rem;
+    text-align: center;
+}
+.bucket input{
+    border: none;
+    outline: none;
+    width: 70%;
+    background-color: transparent;
+    border-bottom: 3px solid black;
+    padding: 5px;
+    margin: 1rem 0;
+    font-family: inherit;
+    font-size: 1.5rem;
+}
+.bucket i{
+    font-size: 2rem;
+    color: green;
+}
+.allItems h2{
+    margin-left: 20%;
+    font-size: 1.5rem;
+}
+h1 .emoji{
+    font-size: 4rem;
+    margin-left: 5px;
+}
+
+
+@media (max-width:480px) {
+    .bucket h1{
+        font-size: 1.8rem;
+    }
+    .bucket i{
+        font-size: 1.8rem;
+        color: orangered;
+    }
+    h1 .emoji{
+        font-size: 2.5rem;
+    }
+
+}
